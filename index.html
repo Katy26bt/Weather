@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-Ua-Compatible" content="IE=Edge">
+    <meta nam="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="weather">
+        <input type="text" class="search">
+        <div class="content">
+            <h1 class="capital">
+                <span class="city">Ho Chi Minh</span>
+                <span>,</span>
+                <span class="country">VN</span>
+            </h1>
+            <div class="time"></div>
+            <div class="tempature">
+                <span class="value">23</span>
+                <sup>o</sup>
+                <span>C</span>
+            </div>
+
+            <div class="short-desc">Clouds</div>
+            <div class="more-desc">
+                <div class="visibility">
+                    <i class="far fa-eye"><ion-icon name="eye"></ion-icon></i>
+                    <span>1000 (m)</span>
+                </div>
+
+                <div class="wind">
+                    <i class="far fa-wind"><ion-icon name="cloudy"></ion-icon></i>
+                    <span>0.51 (m/s)</span>
+                </div>
+
+                <div class="sun">
+                    <i class="far fa-sun"><ion-icon name="sunny"></ion-icon></i>
+                    <span>20 (%)</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
