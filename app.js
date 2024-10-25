@@ -14,8 +14,6 @@ var body = document.querySelector('body');
 
 async function changeWeatherUI(capitalSearch){
     let apiURL = `https://api.openweathermap.org/data/2.5/weather?q= ${capitalSearch} &appid=3389811b849152e16dac548754049b6b`    
-    
-    
     let data = await fetch(apiURL).then(res=> res.json())
 
     if(data.cod == 200){
@@ -30,6 +28,8 @@ async function changeWeatherUI(capitalSearch){
         shortDesc.innerText = data.weather[0] ? data.weather[0].main : ''
         let date = new Date((data.dt)*1000)
         time.innerText = date.toString()
+
+
         
         
         body.setAttribute('class', 'spring')

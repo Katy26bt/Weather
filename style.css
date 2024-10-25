@@ -7,54 +7,56 @@
 body{
     font-family: sans-serif;
     height: 100vh;
+    width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
-    background: url('spring.jpg') no-repeat center/cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+    background: url('background2.png') no-repeat center/cover;
 }
 
 #weather {
-    width: 350px;
-    border-radius: 10px;
-    padding: 30px 20px;
-    background: url('spring.jpg') no-repeat center/cover;
+    width: 400px;
+    height: auto;
+    border-radius: 40px;
+    padding: 50px 30px;
+    background: url('xuan.jpg') no-repeat center/cover;
 }
 
 .spring{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
-    background: url('spring.jpg') no-repeat center/cover;
+    /*background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));*/
+    background: url('background2.png') no-repeat center/cover;
 }
 
 .spring #weather{
-    background: url('spring.jpg') no-repeat center/cover;
+    background: url('xuan.jpg') no-repeat center/cover;
 }
 
 .summer{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
-    background: url('summer.jpg') no-repeat center/cover;
+    /*background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));*/
+    background: url('background2.png') no-repeat center/cover;
 }
 
 .summer #weather{
-    background: url('summer.jpg') no-repeat center/cover;
+    background: url('ha.jpg') no-repeat center/cover;
 }
 
 .autumn{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
-    background: url('autumn.jpg') no-repeat center/cover;
+    /*background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));*/
+    background: url('background2.png') no-repeat center/cover;
 }
 
 .autumn #weather{
-    background: url('autumn.jpg') no-repeat center/cover;
+    background: url('thu.jpg') no-repeat center/cover;
 }
 
 .winter{
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
-    background: url('winter.jpg') no-repeat center/cover;
+    /*background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));*/
+    background: url('background2.png') no-repeat center/cover;
 }
 
 .winter #weather{
-    background: url('winter.jpg') no-repeat center/cover;
+    background: url('dong.jpg') no-repeat center/cover;
 }
 
 .search {
@@ -82,7 +84,9 @@ body{
 }
 
 .capital{
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    font-weight: 70px;
+    font-size: 42px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .time{
@@ -94,6 +98,7 @@ body{
 
 .tempature{
     font-size: 65px;
+    font-weight: bold;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
     background: rgba(255, 255, 255, 0.5);
     box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
@@ -104,10 +109,10 @@ body{
 }
 
 .short-desc{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-    margin: 30px;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+    margin: 40px;
 }
 
 .more-desc {
@@ -117,13 +122,18 @@ body{
 
 .more-desc div{
     display: flex;
+    color: whitesmoke;
     flex-direction: column;
-    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .more-desc div i {
-    margin: 10px 0;
-    height: 10px;
+    margin: 15px 0;
+    height: 15px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .hide{
